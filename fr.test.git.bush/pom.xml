@@ -5,7 +5,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>TestGitBush</name>
   <url> https://github.com/Athar1988/PepositoryBush.git</url>
-  
+  <properties>
+<maven.compiler.source>1.8</maven.compiler.source>
+<maven.compiler.target>1.8</maven.compiler.target>
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
     <dependencies>
   <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
